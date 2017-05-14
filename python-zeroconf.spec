@@ -1,7 +1,7 @@
 #
 # Conditional build:
 %bcond_with	integration	# Integration tests work in mock but fail in Koji with PermissionError
-%bcond_without	tests	# do not perform "make test"
+%bcond_with	tests	# do not perform "make test"
 %bcond_without	python2 # CPython 2.x module
 %bcond_without	python3 # CPython 3.x module
 
@@ -9,7 +9,7 @@
 Summary:	Pure Python Multicast DNS Service Discovery Library
 Name:		python-%{pypi_name}
 Version:	0.18.0
-Release:	1
+Release:	2
 License:	LGPLv2
 Group:		Libraries/Python
 Source0:	https://github.com/jstasiak/%{name}/archive/%{version}/%{pypi_name}-%{version}.tar.gz

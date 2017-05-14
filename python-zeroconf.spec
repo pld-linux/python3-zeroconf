@@ -5,7 +5,7 @@
 %bcond_without	python2 # CPython 2.x module
 %bcond_without	python3 # CPython 3.x module
 
-%global pypi_name zeroconf
+%define pypi_name zeroconf
 Summary:	Pure Python Multicast DNS Service Discovery Library
 Name:		python-%{pypi_name}
 Version:	0.18.0

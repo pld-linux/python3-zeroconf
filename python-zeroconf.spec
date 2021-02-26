@@ -9,7 +9,7 @@
 Summary:	Pure Python Multicast DNS Service Discovery Library
 Name:		python-%{pypi_name}
 Version:	0.18.0
-Release:	4
+Release:	5
 License:	LGPLv2
 Group:		Libraries/Python
 Source0:	https://github.com/jstasiak/%{name}/archive/%{version}/%{pypi_name}-%{version}.tar.gz

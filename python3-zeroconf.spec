@@ -9,7 +9,7 @@ Summary(pl.UTF-8):	Czysto pythonowa biblioteka Multicast DNS Service Discovery
 Name:		python3-%{module}
 # 0.40+ uses poetry to build
 Version:	0.39.4
-Release:	1
+Release:	2
 License:	LGPL v2
 Group:		Libraries/Python
 #Source0Download: https://github.com/jstasiak/python-zeroconf/releases
